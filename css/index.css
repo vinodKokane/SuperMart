@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: bolder !important;
+}
+
+form {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.divider {
+  height: 2px;
+  background-color: gray;
+}
+
+.menuBar {
+  font-size: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.menubar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  max-width: 100%;
+  height: auto;
+}
+
+/* header top */
+.header-top {
+  background-color: rgba(0, 0, 0, 0.855);
+}
+
+/* homepage slider */
+.home-page .slider1 {
+  background: url(11.jpg) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page .slider1 h1 {
+  position: absolute;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+
+.home-page .slider2 {
+  background: url(22.jpg) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home-page .slider2 h1 {
+  position: absolute;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+
+.home-page .slider3 {
+  background: url(BackgroundImg.jpg) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home-page .slider3 h1 {
+  position: absolute;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+
+.bx-wrapper {
+  box-shadow: none;
+  border: none !important;
+}
+
+#cart-btn {
+  color: white;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0px;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5cbcvbcpx #fff,0px 0px 5px black;
+}
+
+.row-img {
+  flex: 1;
+  width: 50px;
+  height: 100px;
+}
+
+.row-img .rowimg {
+  width: 100%;
+  height: 100%;
+}
+.cart-item p{
+  flex: 1;
+}
+.cart-item h2{
+  flex: 1;
+}
+.fa-trash {
+  flex: 1;
+  color: red;
+  transition: 1s all ease;
+}
+.fa-trash:hover{
+  color: blue;
+}
+
+.carousel-item img:hover {
+  background-image: url(..//Images/b3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* bottom img */
+.bottom-img {
+  /* background-color: black; */
+}
+
+.bottom-img .left-top-img {
+  /* padding-bottom: 20px; */
+  overflow: hidden;
+}
+
+.bottom-img .left-bottom-img {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.bottom-img .left-bottom-img .left-top {
+  overflow: hidden;
+  transition: 1s all ease-in-out;
+  padding-top: 30px;
+}
+
+.bottom-img .left-bottom-img .left-bottom {
+  overflow: hidden;
+  transition: 1s all ease-in-out;
+  padding-top: 30px;
+
+}
+
+.bottom-img .right-img {
+  overflow: hidden;
+  transition: 1s all ease;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: 1s all ease;
+
+}
+
+.img-responsive:hover {
+  transform: scale(1.2);
+}
+
+/* clients */
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.clients .heading {
+  transition: 1s all ease;
+  align-items: center;
+}
+
+.clients .heading:hover {
+  transform: scale(1.4);
+}
+
+.clients .comp-logo {
+  overflow: hidden;
+}
+
+.clients .comp-logo img {
+  transition: 1s all ease-in;
+}
+
+.clients .comp-logo img:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
+/* footer  */
+footer {
+  background-color: black;
+}
+
+footer li {
+  line-height: 30px;
+  padding: 5px;
+}
+
+footer li a {
+  color: gray;
+  font-weight: 500;
+  /* line-height: 30px; */
+}
+
+
+@media (max-width:576px) {}
+
+@media (min-width:576px) {}
+
+@media (min-width:768px) {}
